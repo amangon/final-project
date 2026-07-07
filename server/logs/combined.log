@@ -1,0 +1,73 @@
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:14.793Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:14.793Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:19.946Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:37.233Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:37.237Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:01:37.239Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:08.635Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:33.811Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:33.811Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:33.811Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:33.811Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:38.743Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:50.850Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:50.850Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:50.852Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:50.852Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:02:50.852Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:03:46.170Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:04:32.307Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:04:32.309Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:04:32.311Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.035Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.035Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.035Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.035Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:05:31.043Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:05:31.046Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.036Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.038Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:05:31.039Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms","stack":"MongooseError: Operation `users.findOne()` buffering timed out after 10000ms\n    at Timeout.<anonymous> (/Users/amanlala/Desktop/github/final project/server/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:187:23)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-07-07T04:09:51.231Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.445Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.445Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.445Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.445Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.444Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.444Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:10:19.447Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:10:19.448Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:19.445Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.139Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.139Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.138Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.138Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.138Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.138Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:10:28.140Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:10:28.141Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:28.139Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:10:30.067Z"}
+{"level":"warn","message":"DB lookup failed during auth, using fallback demo auth","timestamp":"2026-07-07T04:10:53.663Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'push')","stack":"TypeError: Cannot read properties of undefined (reading 'push')\n    at exports.login (/Users/amanlala/Desktop/github/final project/server/src/controllers/authController.js:94:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","timestamp":"2026-07-07T04:10:53.664Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.247Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.247Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.248Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.247Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.248Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.248Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.248Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:13.248Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:11:13.249Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:11:13.250Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.555Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.555Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.556Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.555Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.556Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.556Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.556Z"}
+{"level":"warn","message":"MongoDB disconnected. Attempting to reconnect...","timestamp":"2026-07-07T04:11:16.556Z"}
+{"level":"error","message":"MongoDB Connection Error: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net","timestamp":"2026-07-07T04:11:16.559Z"}
+{"level":"info","message":"Server running on port 5001 in development mode","timestamp":"2026-07-07T04:11:16.560Z"}
+{"level":"warn","message":"DB lookup failed during auth, using fallback demo auth","timestamp":"2026-07-07T04:11:30.509Z"}
