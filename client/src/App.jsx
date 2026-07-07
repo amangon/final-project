@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import { useAuthStore } from './store/authStore'
 
@@ -12,8 +12,16 @@ import Interview from './pages/Interview'
 import InterviewRoom from './pages/InterviewRoom'
 import Results from './pages/Results'
 import ResultDetail from './pages/ResultDetail'
+import Plans from './pages/Plans'
+import Payment from './pages/Payment'
 import Layout from './components/layout/Layout'
+import AdminLayout from './components/layout/AdminLayout'
 import AIChatbot from './components/AIChatbot'
+import AdminDashboard from './pages/admin/AdminDashboard'
+import AdminUsers from './pages/admin/AdminUsers'
+import AdminPayments from './pages/admin/AdminPayments'
+import AdminPlans from './pages/admin/AdminPlans'
+import AdminLogin from './pages/admin/AdminLogin'
 
 const ProtectedRoute = ({ children }) => {
   const { token } = useAuthStore()
@@ -29,7 +37,7 @@ export default function App() {
   const { token } = useAuthStore()
 
   return (
-    <BrowserRouter>
+    <>
       <Toaster
         position="top-right"
         toastOptions={{
@@ -56,9 +64,16 @@ export default function App() {
         <Route path="/interview/:id" element={<ProtectedRoute><InterviewRoom /></ProtectedRoute>} />
         <Route path="/results" element={<ProtectedRoute><Layout><Results /></Layout></ProtectedRoute>} />
         <Route path="/results/:id" element={<ProtectedRoute><Layout><ResultDetail /></Layout></ProtectedRoute>} />
+        <Route path="/plans" element={<ProtectedRoute><Layout><Plans /></Layout></ProtectedRoute>} />
+        <Route path="/payment/:planId" element={<ProtectedRoute><Layout><Payment /></Layout></ProtectedRoute>} />
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin" element={<ProtectedRoute><AdminLayout><AdminDashboard /></AdminLayout></ProtectedRoute>} />
+        <Route path="/admin/users" element={<ProtectedRoute><AdminLayout><AdminUsers /></AdminLayout></ProtectedRoute>} />
+        <Route path="/admin/payments" element={<ProtectedRoute><AdminLayout><AdminPayments /></AdminLayout></ProtectedRoute>} />
+        <Route path="/admin/plans" element={<ProtectedRoute><AdminLayout><AdminPlans /></AdminLayout></ProtectedRoute>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       {token && <AIChatbot />}
-    </BrowserRouter>
+    </>
   )
 }
